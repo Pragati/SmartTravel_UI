@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/first_fragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="First fragment" />
+        <item
+            android:id="@+id/second_fragment"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Seond Fragment" />
+        <item
+            android:id="@+id/third_fragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Third Fragment" />
+        <item
+            android:id="@+id/fourth_fragment"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Fourth Fragment" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/fifth_fragment"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Fifth Fragment" />
+            <item
+                android:id="@+id/sixth_fragment"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Beacon Fragment" />
+        </menu>
+    </item>
+
+</menu>
